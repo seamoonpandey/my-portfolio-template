@@ -1,5 +1,5 @@
+import SkillContent from "@/components/pages/skills/my-skills";
+
 export default function MySkillsPage() {
-    return <div>
-        skill page
-    </div>
+    return <SkillContent />
 }
