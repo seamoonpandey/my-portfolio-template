@@ -1,5 +1,7 @@
+import BlogsContent from "@/components/pages/blog/mainblogs";
+
 export default function BlogPage() {
     return <div>
-        blog
+        <BlogsContent />
     </div>
 }
