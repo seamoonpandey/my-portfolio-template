@@ -5,7 +5,7 @@ import LogoComponent from "@/components/ui/uicomponents/logo";
 import styled, { keyframes } from "styled-components";
 
 import Link from "next/link";
-import { YinYang } from "@/components/ui/AllSvgs";
+import { Setting } from "@/components/ui/AllSvgs";
 import { useState } from "react";
 import Intro from "./intro";
 import { motion } from "framer-motion";
@@ -140,15 +140,15 @@ export default function Hero() {
                 <LogoComponent theme={click ? 'dark' : 'light'} />
                 <SocialIcons theme={click ? 'dark' : 'light'} />
                 <Center click={click}>
-                    <YinYang onClick={handleClick} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
-                    <span>Who am I ?</span>
+                    <Setting onClick={handleClick} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
+                    {!click && (<span><h3>Who am I ?</h3></span>)}
                 </Center>
                 <Contact href="mailto:hackedasocial@gmail.com">
                     <motion.h2
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                     >
-                        Talk to me.
+                        Talk to me...
                     </motion.h2>
                 </Contact>
                 <BLOG href="/blog">
