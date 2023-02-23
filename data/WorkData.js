@@ -1,61 +1,51 @@
 export const Work = [
     {
-        id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
-        
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        id: 1,
+        name: "Bhikku Management System",
+        description: "It is build on top of the Next JS. With material ui and some more context like database on the backend it is a full fledge product.",
+        tags: ["react", "management system", "nextjs", "mui"],
+
+        demo: "https://bikku-management-system.vercel.app/",
+        github: "https://github.com/seamoonpandey/Bikku-Management-System"
     },
     {
-        id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
-        
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
-        
+        id: 2,
+        name: "FullStack Personal Blog page",
+        description: "It is a template for a website for personal blog page which uses serverside rendering and the loading is not needed. With the contact page connected through the backend with a mongodb",
+        tags: ["react", "mongodb", "nextjs", "SSR"],
+
+        demo: "https://blogpage-gamma.vercel.app/",
+        github: "https://github.com/seamoonpandey/full-stack-blog-template-with-nextjs"
+
     },
     {
-        id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
-        
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        id: 3,
+        name: "Landing Page with Bootstrap",
+        description: "This is a beginner project done while first learning the bootstrap framework. It is just the frontend and no backends",
+        tags: ["html", "bootstrap"],
+
+        demo: "https://dummybootstrapsite.netlify.app/",
+        github: "https://github.com/seamoonpandey/bootstrap-website-prototype-"
     },
     {
-        id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
-        
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
-       
-    },{
-        id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
-        
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
-        
-    },
-    {
-        id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
-        
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
-        
-    },
-    
-  
+        id: 4,
+        name: "Facebook Login UI",
+        description: "A facebook login page of the 90's landing page where there uses no logic but just password verification",
+        tags: ["react", "css", "react-router", "bootstrap", "login", "facebook"],
+
+        demo: "https://fakepen.netlify.app",
+        github: "https://github.com/seamoonpandey/asocial_FateBook.app"
+
+    }, {
+        id: 5,
+        name: "React Meetup App",
+        description: "It is a hands on project on react which optimizes the crud operation and just some concepts of backend and context.",
+        tags: ["react", "firebase", "css"],
+
+        demo: "https://mymeetups.netlify.app/",
+        github: "https://github.com/seamoonpandey/Nextjs-a-Learner-s-way/tree/react-meetup-app"
+
+    }
+
+
 ] 
