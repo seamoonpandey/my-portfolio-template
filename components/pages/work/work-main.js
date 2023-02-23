@@ -16,7 +16,7 @@ import { motion } from 'framer-motion';
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
-  height: 400vh;
+  height: 300vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@ export default function WorkContent() {
                     <Setting width={80} height={80} fill={darkTheme.text} />
                 </Rotate>
 
-                <BigTitle text="WORK" top="10%" right="20%" />
+                <BigTitle text="WORK" top="32%" right="30%" />
             </Box>
         </ThemeProvider>
     );
