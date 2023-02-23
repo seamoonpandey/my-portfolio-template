@@ -4,6 +4,8 @@ import LogoComponent from '@/components/ui/uicomponents/logo';
 import SocialIcons from '@/components/pages/main/social';
 import HomeButton from '@/components/ui/buttons/home-button';
 import BigTitle from '@/components/pages/blog/big-title';
+import { Fragment } from 'react';
+import Head from 'next/head';
 
 
 
@@ -55,7 +57,11 @@ const Main = styled.div`
 
 
 export default function AboutPage() {
-    return (
+    return (<Fragment>
+        <Head>
+            <title>Seamoon's (About)</title>
+        </Head>
+
         <ThemeProvider theme={darkTheme}>
             <Box>
 
@@ -80,6 +86,7 @@ export default function AboutPage() {
             </Box>
 
         </ThemeProvider>
+    </Fragment>
 
     )
 }
