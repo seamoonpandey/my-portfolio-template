@@ -16,7 +16,7 @@ import { motion } from 'framer-motion';
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
-  height: 300vh;
+  height: 400vh;
   position: relative;
   display: flex;
   align-items: center;
