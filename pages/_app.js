@@ -8,15 +8,12 @@ import { AnimatePresence } from 'framer-motion';
 
 export default function App({ Component, pageProps }) {
   return (
-
-    <Fragment>
+    <ThemeProvider theme={lightTheme}>
       <GlobalStyle />
-      <ThemeProvider theme={lightTheme}>
-        <AnimatePresence exitBeforeEnter >
-          <Component {...pageProps} />
-        </AnimatePresence>
-      </ThemeProvider>
-    </Fragment>
+      <AnimatePresence exitBeforeEnter >
+        <Component {...pageProps} />
+      </AnimatePresence>
+    </ThemeProvider>
 
   )
 }
