@@ -16,14 +16,14 @@ display: flex;
 flex-wrap:wrap;
 justify-content: space-evenly;
 gap:50px;
-align-items: center;
-padding:30px;
+padding:50px;
+padding-left:0;
 `
 
 const Main = styled.div`
 border: 2px solid ${props => props.theme.text};
 color: ${props => props.theme.text};
-background-color: ${props => props.theme.body};
+// background-color: ${props => props.theme.body};
 padding: 2rem;  
 padding-bottom:5rem;
 width: 30vw;
