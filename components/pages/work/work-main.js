@@ -40,6 +40,18 @@ const Rotate = styled.span`
   z-index: 1;
 `;
 
+const Alert = styled.div`
+z-index:3;
+display:block;
+position:fixed;
+left:28%;
+bottom:1rem;
+wordWrap: wrap;
+color:#ECECEC;
+
+
+`
+
 // Framer-motion Configuration
 const container = {
     hidden: { opacity: 0 },
@@ -90,6 +102,9 @@ export default function WorkContent() {
                 </Rotate>
 
                 <BigTitle text="WORK" top="32%" right="30%" />
+                <Alert>
+                    These given demos do not operate as they are said to be due to the access removal of the database. So they are just demos for the frontend
+                </Alert>
             </Box>
         </ThemeProvider>
     );
